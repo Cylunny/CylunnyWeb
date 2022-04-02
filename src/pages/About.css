@@ -1,9 +1,29 @@
-.main {
-  background-image: url("../static/aboutbg.png");
-  background-color: rgb(156, 156, 156);
-  background-size: cover;
-  height: calc(100% - 56px);
+.html, .root {
+  height: auto;
 }
+
+
+.lilou-bg {
+  background-image: url("../static/aboutbg.png");
+  background-size: cover;
+
+}
+
+.grey-bg {
+  background-image: url("http://orig10.deviantart.net/075b/f/2017/156/0/3/_s_af0bf0cf0df0e0f0g64he8e8e8000000i74_by_cyleana-dbbmrxo.png");
+  background-repeat: repeat;
+  background-size: initial;
+}
+
+.main {
+  background-color: rgb(156, 156, 156);
+  height: auto;
+  min-height: 100%;
+  animation-duration: 10s;
+  background-attachment:fixed;
+  margin-top: 56px;
+}
+
 
 .icon {
   width: 50px;
@@ -11,4 +31,40 @@
   border-radius: 100px;
   filter: grayscale(100%);
   padding: 5px;
+}
+
+.accordion-button, .accordion-header {
+  background-color: #212529;
+  color: white;
+}
+
+
+.accordion-button:focus, .accordion-button:not(.collapsed) {
+  background-color: #212529;
+  color: white;
+  font-weight: bold;
+}
+
+.accordion-body {
+  background: #c1c2c3;
+}
+
+.fadein {
+  animation-name: fadeInOut;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

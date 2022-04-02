@@ -13,13 +13,13 @@ import af_icon from '../static/artfight-icon.png'
 
 export default function About() {
     return (
-        <div className='h-100'>
+        <div className='vh-100'>
             <NavbarComponent />
-            <div className='container-fluid main'>
-                <div className='row h-100 no-gutters'>
+            <div className='container-fluid main lilou-bg'>
+                <div className='row h-100 fadein'>
                     <div className='col-lg-6'></div>
-                    <div className='col-lg-4 my-auto'><h1 className='display-2'>HELLO!</h1>
-                    <div className='row'>
+                    <div className='col-lg-4 my-5'><h1 className='display-2'>HELLO!</h1>
+                    <div className='row my-5'>
                             <div className="card bg-dark text-light opacity-75">
                                 <div className="card-body">
                                     <h5 className="card-title">My name is Cyl.</h5>
