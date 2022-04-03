@@ -6,9 +6,9 @@ import {
   Route,
 } from "react-router-dom";
 import About from "./pages/About";
-import Lopilu from "./pages/Lopilu";
 import UnderConstruction from './pages/UnderConstruction';
 import TOS from './pages/tos'
+import './Style.css';
 
 const rootElement = document.getElementById("root");
 render(

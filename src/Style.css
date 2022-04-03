@@ -4,7 +4,7 @@
 
 
 .lilou-bg {
-  background-image: url("../static/aboutbg.png");
+  background-image: url("./static/aboutbg.png");
   background-size: cover;
 
 }
@@ -22,6 +22,10 @@
   animation-duration: 10s;
   background-attachment:fixed;
   padding-top: 56px ;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 
