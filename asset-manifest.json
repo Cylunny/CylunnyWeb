@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CylunnyWeb/static/css/main.ba717370.css",
-    "main.js": "/CylunnyWeb/static/js/main.ce755bc3.js",
+    "main.css": "/CylunnyWeb/static/css/main.7344e233.css",
+    "main.js": "/CylunnyWeb/static/js/main.d324ab47.js",
     "static/media/aboutbg.png": "/CylunnyWeb/static/media/aboutbg.5c02ecad71463e495fe5.png",
     "static/media/insta-icon.png": "/CylunnyWeb/static/media/insta-icon.9d341cb403bb1cbbcb80.png",
     "static/media/da-icon.png": "/CylunnyWeb/static/media/da-icon.7ef60e2bca1cd1c68119.png",
     "static/media/artfight-icon.png": "/CylunnyWeb/static/media/artfight-icon.6c9c6aef322177addedd.png",
     "static/media/patreon-icon.png": "/CylunnyWeb/static/media/patreon-icon.9535370ee5b9e9551b45.png",
     "index.html": "/CylunnyWeb/index.html",
-    "main.ba717370.css.map": "/CylunnyWeb/static/css/main.ba717370.css.map",
-    "main.ce755bc3.js.map": "/CylunnyWeb/static/js/main.ce755bc3.js.map"
+    "main.7344e233.css.map": "/CylunnyWeb/static/css/main.7344e233.css.map",
+    "main.d324ab47.js.map": "/CylunnyWeb/static/js/main.d324ab47.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba717370.css",
-    "static/js/main.ce755bc3.js"
+    "static/css/main.7344e233.css",
+    "static/js/main.d324ab47.js"
   ]
 }
