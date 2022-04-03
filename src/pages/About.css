@@ -18,10 +18,10 @@
 .main {
   background-color: rgb(156, 156, 156);
   height: auto;
-  min-height: 100%;
+  min-height: 100vh;
   animation-duration: 10s;
   background-attachment:fixed;
-  margin-top: 56px;
+  padding-top: 56px ;
 }
 
 

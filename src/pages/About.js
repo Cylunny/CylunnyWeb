@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from "react-router-dom";
-import { Button } from 'react-bootstrap';
 import NavbarComponent from '../components/NavbarComponent';
 import './About.css';
 import da_icon from '../static/da-icon.png'
@@ -13,7 +11,7 @@ import af_icon from '../static/artfight-icon.png'
 
 export default function About() {
     return (
-        <div className='vh-100'>
+        <div>
             <NavbarComponent />
             <div className='container-fluid main lilou-bg'>
                 <div className='row h-100 fadein'>

@@ -4,10 +4,10 @@ import { Accordion } from 'react-bootstrap';
 
 export default function UnderConstruction() {
     return (
-        <div className='vh-100'>
+        <div>
             <NavbarComponent />
             <div className='container-fluid main grey-bg'>
-                <div className='row'>
+                <div className='row pt-5'>
                     <div className="col-lg-4">
                         <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/46808332_ZiwX62kj0hEFDY5.png"></img>
                     </div>
