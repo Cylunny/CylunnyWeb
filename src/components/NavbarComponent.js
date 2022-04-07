@@ -15,6 +15,7 @@ export default function NavbarComponent() {
                             <Nav.Link href="#/TOS">TOS</Nav.Link>
                             <Nav.Link href="#/Commissions">Commissions</Nav.Link>
                             <Nav.Link href="#/Customs">Customs</Nav.Link>
+                            <Nav.Link href="#/Adoptables">Adoptables</Nav.Link>
                             <NavDropdown title="Species" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#/Lopilu">Lopilu</NavDropdown.Item>
                                 <NavDropdown.Item href="#/Gleamstic">Gleamstic</NavDropdown.Item>

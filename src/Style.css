@@ -6,7 +6,11 @@
 .lilou-bg {
   background-image: url("./static/aboutbg.png");
   background-size: cover;
+}
 
+.comm-bg {
+  background-image: url("./static/commbg.png");
+  background-size: cover;
 }
 
 .grey-bg {
@@ -28,6 +32,10 @@
   text-align: justify;
 }
 
+.p-150 {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
 
 .icon {
   width: 50px;
@@ -51,6 +59,39 @@
 
 .accordion-body {
   background: #c1c2c3;
+}
+
+.nav-tabs .nav-link {
+  color: #ffffff;
+  background-color: #212529;
+  margin: 3px;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: #6a7179;
+  font-weight: bolder;
+}
+
+
+.bigonhover {
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s;
+}
+
+.bigonhover:hover {
+  width: 400px;
+}
+
+@keyframes bigonhover {
+  from {
+    width: 100%;
+  }
+
+
+  to {
+    width: 110%;
+  }
 }
 
 .fadein {
